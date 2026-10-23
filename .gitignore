@@ -1,0 +1,34 @@
+﻿# Build output and packages (publish downloads as GitHub Releases instead)
+dist/
+downloads/
+bin/
+obj/
+*.exe
+*.pdb
+*.zip
+
+# Local development notes and archives
+DEVLOG.md
+.local-archive/
+
+# Diagnostics and QA output (can contain hardware identifiers)
+monitors.json
+monitors.json.bak
+native-validation*.txt
+test-results.txt
+qa-profile/
+pending-*.json*
+activity.log
+settings.json
+settings.json.bak
+last-layout.json
+
+# Editor, IDE and OS files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+Thumbs.db
+Desktop.ini
+.DS_Store

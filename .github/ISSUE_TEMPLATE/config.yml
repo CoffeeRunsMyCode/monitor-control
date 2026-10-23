@@ -1,0 +1,4 @@
+contact_links:
+  - name: Report a security problem
+    url: https://github.com/coffeerunsmycode/monitor-control/security/advisories/new
+    about: Please report security problems privately here, not in a public issue.
